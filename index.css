@@ -1,0 +1,56 @@
+body{
+    background-color: pink;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    width: 400px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1{
+    color: red;
+}
+
+h2{
+    color: darkred;
+}
+
+p{
+    font-size: 16px;
+    color: black;
+}
+
+input{
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button{
+    width: 150px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: darkred;
+}
+
+.result{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+}
